@@ -22,9 +22,7 @@ module.exports = function(grunt) {
 			pattern: ""
 		});
 		
-		grunt.log.writeln(JSON.stringify(this, null, 2));
-		
-        var args = [];
+		var args = [];
 		if(this.filesSrc.length === 0) {
 			grunt.fail.warn("Missing solution file in 'src'");
 		}

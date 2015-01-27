@@ -57,4 +57,5 @@ Also see https://www.npmjs.org/doc/json.html#dependencies for details of how to 
 
 |Version| Notes|
 |-------|------|
-|0.0.1|Initial commit basic functionality of exposing nucheck.
+|0.0.3|Removed debug output accidentally left behind.
+|0.0.2|Initial commit basic functionality of exposing nucheck.

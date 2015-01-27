@@ -1,6 +1,6 @@
 {
   "name": "grunt-nucheck",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Verify that there are no duplicate versions of a nuget package",
   "homepage": "https://github.com/GeckoInformasjonssystemerAS/grunt-nucheck",
   "author": {
