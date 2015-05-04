@@ -28,7 +28,10 @@ module.exports = function(grunt) {
 		}
 	
 		args.push(this.filesSrc[0]);
-		args.push(options.pattern);
+		
+		if(options.pattern) {
+			args.push(options.pattern);
+		}
         
 		var process = spawn(nucheckPath, args);
 
